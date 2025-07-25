@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdiaziz Ahmed Gailab - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --main-color: #007acc;
+      --hover-color: #005f99;
+      --bg-light: #f9f9f9;
+      --bg-section: #ffffff;
+      --font-color: #333;
+    }
+    * {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: var(--bg-light);
+      color: var(--font-color);
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #ffffffee;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 0.8rem 2rem;
+      z-index: 999;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: var(--main-color);
+      transition: color 0.2s;
+    }
+    nav ul li a:hover {
+      color: var(--hover-color);
+    }
+    header {
+      background: var(--main-color);
+      color: white;
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-left: 5px solid var(--main-color);
+      padding-left: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+    }
+    .cert-links a {
+      display: inline-block;
+      margin: 0.4rem 0;
+      padding: 0.5rem 1rem;
+      background: var(--main-color);
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .cert-links a:hover {
+      background: var(--hover-color);
+      transform: scale(1.05);
+    }
+    .contact a {
+      color: var(--main-color);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .contact a:hover {
+      color: var(--hover-color);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      margin-top: 2rem;
+    }
+    ul li::marker {
+  content: '';
+}
+    .highlight {
+      background: linear-gradient(135deg, #e0f7ff, #f2faff);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+  <nav>
+  <ul>
+    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+    <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+    <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+    <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+    <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+    <li><a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a></li>
+    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+  </ul>
+</nav>
+
+<body>
+  <!-- $1
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul> -->
+  </nav>
+  <div style="margin-top: 80px;">
+    <header>
+      <h1>Abdiaziz Ahmed Gailab</h1>
+      <p>IT Graduate | IoT Developer | Web Designer</p>
+    </header>
+
+    <section id="about" class="highlight">
+      <h2><i class="fas fa-user-circle"></i> About Me</h2>
+      <p style="font-size: 1.1rem; line-height: 1.6;">
+        I'm an innovative and detail-oriented IT graduate with a passion for creating smart, efficient, and user-friendly digital solutions. My background spans across web development, IoT, and multimedia design—driven by curiosity and a desire to solve real-world problems through technology.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+      <p><strong>Bachelor’s Degree in Information Technology</strong><br>
+      Department of Computer Applications<br>
+      Jamhuriya University of Science & Technology<br>
+      <em>September 2020 – August 2024</em></p>
+    </section>
+
+    <section id="skills">
+      <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+      <ul>
+        <li>Programming: Python, C++, React, Flutter</li>
+        <li>Web: HTML, CSS, JavaScript, PHP</li>
+        <li>Databases: MySQL, Firebase</li>
+        <li>Graphic & Video Design</li>
+        <li>IoT Development</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+      <h3>Smart Window with Push Button & Mobile App</h3>
+      <p>Controlled window movements using a mobile app via ESP8266 and Wi-Fi.</p>
+      <h3>Voice-Controlled Smart Blinds</h3>
+      <p>Developed a voice-activated system using Arduino Uno for blind automation.</p>
+    </section>
+
+    <section id="experience">
+      <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+      <h3>Nasiye Supermarket</h3>
+      <p><strong>Position:</strong> Cashier & Stock Clerk<br>
+      <strong>Duration:</strong> March 2023 – May 2025<br>
+      <strong>Responsibilities:</strong> Responsible for all supermarket operations including sales, purchasing, inventory, and customer service. Played a key role in maintaining day-to-day functionality of the business.</p>
+    </section>
+
+    <section id="certificates">
+      <h2><i class="fas fa-certificate"></i> Certificates</h2>
+      <div class="cert-links">
+        <a href="https://www.udemy.com/certificate/UC-336564bf-4386-441e-a377-c4c6c400684d/" target="_blank">📜 Python for Beginners</a><br>
+        <a href="https://www.udemy.com/certificate/UC-e942b8bb-2e95-4a1c-856e-0554efcc4e7f/" target="_blank">🌐 Internet of Things (IoT) Course</a><br>
+        <a href="https://www.udemy.com/certificate/UC-3211236c-a25e-4778-b19d-1bc96fdc5144/" target="_blank">☕ Java Core Guide</a><br>
+        <a href="https://www.udemy.com/certificate/UC-ff42e4ee-6619-40f2-8184-3c98c3921329/" target="_blank">🎯 Competency-Based Interview</a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2><i class="fas fa-envelope"></i> Contact</h2>
+      <p><i class="fas fa-envelope"></i> Email: <a href="mailto:abdiazizahmedgailab@gmail.com">abdiazizahmedgailab@gmail.com</a></p>
+      <p><i class="fas fa-phone"></i> Phone: <a href="tel:+252613170745">+252613170745</a></p>
+      <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/Abdiaziz A.Aag">Abdiaziz A.Aag</a></p>
+      <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Abdiaziz-AAG">Abdiaziz-AAG</a></p>
+      <p><i class="fab fa-facebook"></i> Facebook: <a href="https://facebook.com/Abdiaziz A.Aag">Abdiaziz A.Aag</a></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Abdiaziz Ahmed Gailab. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
